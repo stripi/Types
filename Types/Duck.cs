@@ -11,10 +11,16 @@ namespace Types
 
         public string colour = "yellow";
 
+        public Duck()
+        {
+            
+        }
+
         public void Quack()
         {
             Console.WriteLine($"Quack! This duck is {colour}!");
         }
+
 
     }
 }

@@ -7,9 +7,10 @@ class Program
 {
     public static void Main()
     {
-        //Task00.Run();
-        //Task01.Run();
-        /*        int num1 = 2;
+        /*
+        Task00.Run();
+        Task01.Run();
+                int num1 = 2;
                 decimal dec1 = 1.1m;
                 float float1 = 2.9f;
                 float float2 = 3.95f;
@@ -22,16 +23,26 @@ class Program
                 float doubleToFloat = (float)double1;
 
                 Console.WriteLine($"{numberToDecimal}, {decimalToDouble}, {floatToInt}, {floatToDecimal}, {doubleToFloat}");
+        
+
+        double num1 = 2.2;
+        decimal num2 = 4.9m;
+
+        Console.WriteLine(MultiplyInt((int)num1, (int)num2));
+        DivideIntandDecimal();
+
+        Duck uglyDuckling = new Duck();
+        Duck prettyDuckling = new Duck();
+        Duck uglyDucklingCopy = uglyDuckling;
+
+        Console.WriteLine(uglyDuckling.GetType());
+        Console.WriteLine(Duck.ReferenceEquals(uglyDuckling, prettyDuckling));
+        Console.WriteLine(Duck.ReferenceEquals(uglyDuckling, uglyDucklingCopy));
+        Console.WriteLine(uglyDuckling.GetHashCode());
         */
 
-        //double num1 = 2.2;
-        //decimal num2 = 4.9m;
+        DivideIntandDecimal();
 
-        //Console.WriteLine(MultiplyInt((int)num1, (int)num2));
-        //DivideIntandDecimal();
-
-        Duck myFavouriteDuck = new Duck();
-        myFavouriteDuck.Quack();
 
     }
 
@@ -50,10 +61,20 @@ class Program
         num1 = int.Parse(Console.ReadLine());
         Console.WriteLine("Enter decimal");
         num2 = decimal.Parse(Console.ReadLine());
-        //num3 = (num1 / num2);
+        num3 = (double)(num1 / num2);
 
-        Console.WriteLine((double)(num1 / num2));
- 
+        Console.Write("Do you want your answer as a char array? Please type true or false: ");
+        bool wantCharArray = bool.Parse(Console.ReadLine());
+
+        if (wantCharArray)
+        {
+            char[] num3cArray = num3.ToString().ToCharArray();
+            Console.WriteLine(num3cArray);
+        }
+        else
+        {
+            Console.WriteLine(num3);
+        }
     }
 
 }
