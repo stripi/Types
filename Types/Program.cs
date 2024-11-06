@@ -1,2 +1,11 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+using static Types.Task00;
+namespace Types;
+
+class Program
+{
+    public static void Main()
+    {
+        Run();
+    }
+}
