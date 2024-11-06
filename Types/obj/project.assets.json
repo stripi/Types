@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\cgm99\\.nuget\\packages\\": {}
+    "C:\\Users\\josep\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cgm99\\Documents\\northcoders\\intro-week\\Types\\Types\\Types.csproj",
+      "projectUniqueName": "C:\\Users\\josep\\Documents\\Northcoders\\intro-week\\Types\\Types\\Types.csproj",
       "projectName": "Types",
-      "projectPath": "C:\\Users\\cgm99\\Documents\\northcoders\\intro-week\\Types\\Types\\Types.csproj",
-      "packagesPath": "C:\\Users\\cgm99\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cgm99\\Documents\\northcoders\\intro-week\\Types\\Types\\obj\\",
+      "projectPath": "C:\\Users\\josep\\Documents\\Northcoders\\intro-week\\Types\\Types\\Types.csproj",
+      "packagesPath": "C:\\Users\\josep\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\josep\\Documents\\Northcoders\\intro-week\\Types\\Types\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\cgm99\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\josep\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
