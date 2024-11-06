@@ -6,6 +6,7 @@ class Program
 {
     public static void Main()
     {
-        Run();
+        Task00.Run();
+        Task01.Run();
     }
 }
